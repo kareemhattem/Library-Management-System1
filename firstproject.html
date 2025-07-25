@@ -1,15 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Project</title>
+    <meta charset="UTF-8">
+    <title>My Styled Project</title>
+    <style>
+        body {
+            background-color: #1e1e2f;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #00d9ff;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #cccccc;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #00d9ff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .box {
+            background-color: #2d2d44;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to My Project</h1>
+
     <nav>
-        <a href="#">Home</a> |
-        <a href="#">About</a> |
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
         <a href="#">Contact</a>
     </nav>
-    <p>This is a simple paragraph describing the project.</p>
+
+    <div class="box">
+        <p>This is a styled version of your HTML page. You can add more content inside this box to describe your project.</p>
+    </div>
 </body>
 </html>
